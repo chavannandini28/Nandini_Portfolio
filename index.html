@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio</a>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bars Animation -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+   <!-- Home Section -->
+<section class="home" id="home">
+    <div class="home-info">
+        <h1>Nandini Chavan</h1>
+        <h2>I'm a
+            <span>Full Stack Developer</span>
+        </h2>
+        <p>Information Technology Engineering Student.</p>
+        <div class="btn-sci">
+            <!-- Direct Download CV link -->
+            <a href="https://drive.google.com/uc?export=download&id=1yK2zyMWzCCZ2Iz-tc2FIKKZdgazT0vC-" 
+               class="btn" target="_blank">
+               Download CV
+            </a>
+            <div class="sci">
+                <a href="https://github.com/chavannandini28" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nandini-chavan-b4788727b" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </div>
+        </div>
+        <!-- Clock -->
+        <div class="clock" id="clock"></div>
+    </div>
+
+    <div class="home-img">
+        <div class="img-box">
+            <div class="img-item">
+                <img src="photo.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="photo.jpeg" alt="About Me">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer & IT Engineer</h3>
+            <p>
+                Hello! I'm Nandini Chavan, an enthusiastic and detail-oriented Information Technology Engineering student.
+                My passion lies in developing modern, responsive, and user-friendly web applications.
+                I enjoy working on both frontend and backend technologies, blending creativity with technical expertise
+                to bring ideas to life. 
+            </p>
+            <p>
+                Skills include HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB.
+                I love learning new tools and frameworks, solving challenging problems, and contributing
+                to open-source projects.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">My <span>Portfolio</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="tiffin.jpg" alt="Online Tiffin Portal Website">
+            <div class="portfolio-layer">
+                <h4>Online Tiffin Portal Website</h4>
+                <p>A responsive food ordering platform for home-cooked meals, designed for easy ordering and tracking.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="education" id="Education">
+    <h2 class="heading">My <span>Education</span></h2>
+    <div class="education-container">
+        
+        <div class="education-box">
+            <h3>10th Standard</h3>
+            <p><strong>Year:</strong> 2019</p>
+            <p><strong>Percentage:</strong> 77.40%</p>
+            <p>Completed 10th grade with a strong academic performance and keen interest in technology.</p>
+        </div>
+
+        <div class="education-box">
+            <h3>Diploma in Information Technology</h3>
+            <p><strong>Year:</strong> 2019 - 2022</p>
+            <p><strong>Percentage:</strong> 72.63%</p>
+            <p>Gained foundational knowledge of programming, networking, and database management systems.</p>
+        </div>
+
+        <div class="education-box">
+            <h3>Bachelor of Engineering (IT)</h3>
+            <p><strong>Year:</strong> 2022 - Present</p>
+            <p><strong>Current CGPA:</strong> 8.57</p>
+            <p>Currently pursuing B.E. in Information Technology, focusing on web development, software engineering, and emerging technologies.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="Services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="service-box">
+            <img src="web-development.jpg" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Creating responsive and dynamic websites using modern web technologies to deliver seamless user experiences.</p>
+        </div>
+        <div class="service-box">
+            <img src="ui-ux-design.jpg" alt="UI/UX Design">
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive and visually appealing user interfaces with a focus on enhancing usability and engagement.</p>
+        </div>
+        <div class="service-box">
+            <img src="digital-marketing.jpg" alt="Digital Marketing">
+            <h3>Digital Marketing</h3>
+            <p>Providing strategic digital marketing solutions to increase brand visibility and drive targeted traffic.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section HTML -->
+<section class="contact" id="Contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <div class="contact-container">
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+<!-- Footer Copyright -->
+<footer class="footer">
+    <p>&copy; 2025 Nandini Chavan. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
